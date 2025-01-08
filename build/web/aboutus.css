@@ -1,0 +1,238 @@
+/* Global reset and font styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+.H1 h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #4d335a;
+    margin-top: 20px;
+    font-weight: bold;
+}h1{
+    color:rgb(88, 20, 109);
+}
+
+/* Part 1 Styling */
+.part1 {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.part1 img.M {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px 0;
+}
+
+.part1 h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.part1 p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+/* Part 2 Styling */
+.part2 {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.part2 h1 {
+    font-size: 2rem;
+    color: #333;
+    font-style: italic;
+}
+
+.part2 h2 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+.part2 p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Part 3 Styling (Global Footprint) */
+.part3 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.part3 h1 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #333;
+}
+
+.part3 p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Part 4 Styling (Our Values) */
+.part4 {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.part4 h1 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #333;
+}
+
+.part4 h4 {
+    font-size: 1.4rem;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+.part4 p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+/* Part 5 Styling (Meet Our Team) */
+.part5 {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.part5 h1 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card .intro h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card .intro p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Part 6 Styling (Our Story) */
+.part6 {
+    padding: 40px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.P1, .P2 {
+    width: 48%;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Social Icons */
+.icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icons a {
+    color: #333;
+    font-size: 2rem;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #4CAF50;
+}
+
+/* Footer Styles */
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #5a8d2;
+    color: white;
+}
+
+.footer2 .f1 h1 {
+    font-size: 2rem;
+}
+
+.footer2 .f2, .footer2 .f3 {
+    font-size: 1rem;
+}
+
+.footer2 .f2 a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer2 .f2 a:hover {
+    color: #4CAF50;
+}
+
+.footer2 .f3 h4, .footer2 .f3 h5 {
+    color: white;
+}

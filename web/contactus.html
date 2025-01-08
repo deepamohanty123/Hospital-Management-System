@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    color:rgb(29, 29, 150);
+}
+.f1{
+    margin-top: 20px;
+    margin-left: 480px;
+    border: 1px solid #120e0e; 
+    border-radius: 4px; 
+    width:350px;
+    height:280px;
+    background-color: rgba(192, 204, 233, 0.495);
+}
+.f2 a{
+    margin-left: 80px;
+}
+.doc{
+    width:165px;   
+  }
+
+.input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #120e0e; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  .f2{
+     padding-left: 85px;
+     padding-top: 20px; 
+     width: 80px;   
+  }
+  .f1 button{
+        width: 80px;
+        height: 30px;
+        background-color: rgb(153, 153, 227);
+        border-color: rgb(159, 159, 232);
+        margin-left:45px;
+        box-shadow: 3px 3px 5px rgba(6, 19, 48, 0.495);
+    }
+    button:hover{
+        background-color: rgb(239, 189, 240);
+    }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Contact Us</h2>
+    </div>
+    
+    <div class="f1">
+        <form action="contactus" method="post">
+           
+            <div class="f2">
+
+            Firstname<input type="text"  name="fst" placeholder="Enter here">
+            Lastname<input type="text"   name="lst" placeholder="Enter here">
+            Email<input type="text"     name="eml"  placeholder="Enter here">
+            Message<input type="text"  name="mes"  placeholder="Enter here">
+            
+               <input type="submit" value="submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
